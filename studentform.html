@@ -4,41 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-        <form border="5" cellpadding="10" cellspacing="10">
-            <center><h1>Student registration form</h1></center>
-            <label for="name">NAME</label>
+    <table border="3">
+    <form>
+            <center><h1 bgcolour="beige" border="5">Student registration form</h1></center>
+            <label for="name">FULL NAME   :</label>
             <input type="text" id="name" name="name" value=""></input>
             <br>
-            <label for="age">AGE</label>
-            <input type="number" id="age" name="age" value=""></input>
+            
             <br>
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email" required placeholder="abhhduds123@gmail.com"></input>
+            <label for="email">EMAIL :</label>
+            <input type="email" id="email" name="email" required placeholder="abc123@example.com"></input>
             <br>
-            <label for="phone">PHONE NUMBER</label>
-            <input type="tel" id="phone" name="phone" value=""></input>
             <br>
-            <label for="fathers name">FATHERS NAME</label>
-            <input type="text" id="fathers name" name="fathers name" value=""></input>
+            <label for="password">PASSWORD :</label>
+            <input type="password" id="password" name="password" value=""></input>
             <br>
-            <label for="mothers name">MOTHERS NAME</label>
-            <input type="text" id="mothers name" name="mothers name" value=""></input>
             <br>
-            <label for="address">ADDRESS</label>
-            <input type="text" id="address" name="address" value=""></input>
-            <br>
-            <select>
-            <h4><label for="course">COURSE</label></h4>
-            <option value="btech">BTECH</option>
-            <option value="bca">BCA</option>
-            <option value="bcom">BCOM</option>
-            <option value="ba">BA</option>
-            <option value="bba">BBA</option>
-
-            </select>
-            <br>
-            <h4></h4><label for="gender"></label></h4>
+            <h4></h4><label for="gender">GENDER :</label></h4>
             <label for="male">MALE</label>
             <input type="radio" id="male" name="male" value="male">
             <label for="female">FEMALE</label>
@@ -46,38 +28,32 @@
             <label for="other">OTHER</label>
             <input type="radio" id="other" name="other" value="other">
             <br>
-            <h4><label for="Which days do you prefer?"></label></h4>
-            <label for="monday">MONDAY</label>
-            <input type="checkbox" id="monday" name="monday" value="monday">
             <br>
-            <label for="tuesday">TUESDAY</label>
-            <input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+            <label for="phone">PHONE NUMBER:</label>
+            <input type="tel" id="phone" name="phone" value=""></input>
             <br>
-            <label for="wednesday">WEDNESDAY</label>
-            <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
             <br>
-            <label for="thursday">THURSDAY</label>
-            <input type="checkbox" id="thursday" name="thursday" value="thursday">
             <br>
-            <label for="friday">FRIDAY</label>
-            <input type="checkbox" id="friday" name="friday" value="friday">
-            <br><br><br>
-            <h4><label for="scholarship">SCHOLARSHIP</label></h4>
-            <label for="yes">YES</label>
-            <input type="radio" id="scholarship" name="scholarship" value="scholarship">
-            <label for="no">NO</label>
-            <input type="radio" id="scholarship" name="scholarship" value="scholarship">
-            <br>
-
-            <center><input type="button" value="submit"></input></center>
-            <center><input type="button" value="clear"></input></center>
-
-
+            <label for="course">COURSE</label>
+            <select id="course" name="course" required placeholder="select your course">
+                <option value="bca">BCA</option>
+                <option value="bcom">BCOM</option>
+                <option value="bsc">BSC</option>
+                <option value="b.tech">B.tech</option>
+                </select>
             
-
-
-
-        </form>
+            <br>
+            <br>
+            <br>
+            <label for="address">ADDRESS :</label>
+            <textarea id="address" name="address" value="" required placeholder="Enter your address here"></textarea>
+            <br>
+            <br>
+            <br>
+            <input type="button" value="register"></input>  
+            <input type="button" value="clear"></input>
+            </form>
+            </table>
     
 </head>
 <body>
