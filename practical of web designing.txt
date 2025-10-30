@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>practical 1</title>
+<head>
+<body>
+<form>
+<center><h1>COLLEGE ADMISSION FORM</h1></center>
+<br>
+<label for="name">Name:</label>
+<input type="text" id="Name" name="Name" value=""></input>
+<br>
+<label for="age">Age:</label>
+<input type="text" id="age" name="age" value=""></input>
+<br>
+<label for="gender">Gender:</label>
+<checkbox id="gender" name="gender" value=""></checkbox>
+<label for="male">Male:</label>
+<checkbox id="male" name="male" value=""></checkbox>
+<label for="female">Female:</label>
+<checkbox id="female" name="female" value=""></checkbox>
+<label for="female">Female:</label>
+<checkbox id="female" name="female" value=""></checkbox>
+<label for="other">Other:</label>
+<checkbox id="other" name="other" value=""></checkbox>
+<br>
+<label for="address">Address:</label>
+<textarea id="age" name="age" value=""></textarea>
+<br>
+<label for="preference">preference:</label>
+<select <label for="btech">btech:</label>
+         label for="bca">bca:</label>
+         label for="bsc">bsc:</label>>
+</select>
+<br>
+<label for="fathersname">Fathers Name:</label>
+<input type="text" id="fathersName" name="fathersName" value=""></input>
+<br>
+<label for="mothersname">MothersName:</label>
+<input type="text" id="mathersName" name="mothersName" value=""></input>
+<br>
+<label for="submit">Submit:</label>
+<input type="button" id="submit" name="submit"></input>
+<label for="clear">Clear:</label>
+<input type="button" id="clear" name="clear"></input>
+</form>
+</body>
+</html>
